@@ -178,6 +178,88 @@ a {
     height: auto;
 }
 
+/* about */
+
+.about {
+    padding-top: 96px;
+}
+
+.about_title {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #14171f;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+
+.about-img { 
+    padding-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Instagram */
+
+.instagram-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-top: 96px;
+    padding-bottom: 12px;
+}
+
+.instagram-title {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #14171f;
+}
+
+.instagram-btn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 12px 75px;
+    border: none;
+    color: #fff;
+    background-color: #535765;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.instagram-btn:hover,
+.instagram-btn:active {
+    background-color: #53576590;
+}
+
+.instagram-list {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.play_btn {
+    width: 315px;
+    height: 315px;
+    background: #d9d9d9;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.play_btn:hover,
+.play_btn:active {
+    background-color: #53576590;
+}
+
 /* Contact */
 
 .contact {
@@ -252,6 +334,7 @@ a {
 
 .footer {
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color: #f5f5f5;
     padding: 25px 20px;
 
@@ -277,7 +360,7 @@ a {
 @media only screen and (max-width: 1380px) {
 
     .container {
-        padding: 0 40px;
+        padding: 0 20px;
     }
 }
 
@@ -313,6 +396,24 @@ a {
         height: 340px;
     }
 
+    .about {
+        padding-top: 80px;
+    }
+
+    .about-img {
+        object-fit: cover;
+        width: 720px;
+        height: 560px;
+    } 
+
+    .instagram-btn {
+        padding: 12px 34px;
+    }
+
+    .instagram-reels3, .instagram-reels4 {
+        display: none;
+    }
+
     .contact-main {
         flex-direction: column;
     }
@@ -326,6 +427,7 @@ a {
     .contact-left {
         flex-direction: row;
         padding-bottom: 212px;
+        height: 360px;
     }
 
     .projects {
@@ -377,8 +479,17 @@ a {
         padding-top: 48px;
     }
 
+    .about {
+        padding-top: 48px;
+    }
+
+    .instagram-reels2 {
+        display: none;
+    }
+
     .contact-left {
         flex-direction: column;
+        height: 440px;
     }
 
     .footer-logo {
