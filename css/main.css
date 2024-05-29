@@ -1,0 +1,780 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+  width: 1440px;
+  height: 72px;
+  background: #013fff;
+  padding-left: 54px;
+  padding-right: 60PX;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  width: 188px;
+  height: 49px;
+  margin-top: 11px;
+}
+
+.nav {
+  display: flex;
+  gap: 78px;
+}
+
+.nav_list {
+  padding-top: 32px;
+  display: flex;
+  gap: 32px;
+}
+
+.nav_item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #e6e6e6;
+}
+
+.header_btns {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+}
+
+.btns_line {
+  border-radius: 20px;
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.header_telegram {
+  border: none;
+  border-radius: 12px;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.header_phone {
+  border: none;
+  border-radius: 12px;
+  width: 238px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.3);
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.header_menu {
+  display: none;
+  border: none;
+  border-radius: 12px;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.hero {
+  padding-top: 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.hero-img {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.hero-text {
+  padding-bottom: 40px;
+}
+
+.heroMed {
+  display: none;
+}
+
+.heroMin {
+  display: none;
+}
+
+.service {
+  padding-top: 120px;
+}
+
+.service_title {
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #333;
+}
+
+.service ul {
+  display: inline-block;
+}
+
+.service_card {
+  padding-bottom: 80px;
+  display: flex;
+  gap: 20px;
+}
+
+.service_card_img {
+  border-radius: 24px;
+  background-color: #F2F2F2;
+  width: 426px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_imgs {
+  width: 100%;
+  height: auto;
+}
+
+.service_card_title {
+  width: 530px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #1a1a1a;
+}
+
+.service_card_text {
+  width: 600px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666;
+}
+
+.service_card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.ser_card_content {
+  gap: 214px;
+  display: flex;
+  align-items: center;
+}
+
+.service_btn {
+  border: none;
+  border-radius: 12px;
+  width: 60px;
+  height: 60px;
+}
+
+.team {
+  max-width: 1400px;
+  margin: 108px auto;
+  border-radius: 24px;
+  width: 1400px;
+  height: 593px;
+  background: #f2f2f2;
+}
+
+.team_box {
+  padding: 40px 32px;
+}
+
+.team_title {
+  padding-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #013fff;
+}
+
+.team_top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.left-btn {
+  border: 1px solid #ccc;
+  border-radius: 140px;
+  width: 80px;
+  height: 80px;
+}
+
+.right-btn {
+  border: none;
+  border-radius: 140px;
+  width: 80px;
+  height: 80px;
+  background: #013fff;
+}
+
+.team_images {
+  padding-top: 80px;
+  display: flex;
+  gap: 20px;
+}
+
+.team_names {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 133%;
+  text-transform: uppercase;
+  color: #1a1a1a;
+}
+
+.team_members {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  text-transform: uppercase;
+  color: #ccc;
+}
+
+.about_us {
+  padding-top: 108px;
+  padding-bottom: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUsMb {
+  display: none;
+}
+
+.about_us_btn {
+  border: none;
+  border-radius: 12px;
+  width: 60px;
+  height: 60px;
+}
+
+.about_us_btn2 {
+  display: none;
+  border: none;
+  border-radius: 12px;
+  width: 60px;
+  height: 60px;
+}
+
+.aboutUsText {
+  display: flex;
+}
+
+.about_us_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.about_us_content p {
+  padding-bottom: 20px;
+  max-width: 590px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666;
+}
+
+.footer_contact {
+  max-width: 1400px;
+  margin: 80px auto;
+  padding: 60px 80px 56px 40px;
+  border-radius: 24px;
+  width: 1400px;
+  height: 600px;
+  background: linear-gradient(180deg, #013fff 0%, #ebebeb 100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_us_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact_us_title {
+  width: 500px;
+  padding-bottom: 140px;
+  font-weight: 200;
+  font-size: 96px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.input {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 12px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  width: 320px;
+  height: 44px;
+  background: #fff;
+}
+
+.input_btn {
+  border: none;
+  border-radius: 12px;
+  width: 320px;
+  height: 44px;
+  background: #013fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.footer_images {
+  position: relative;
+}
+
+.footer_img1 {
+  position: absolute;
+  left: -140px;
+  bottom: 40px;
+}
+
+.footer_imagesMb {
+  display: none;
+  position: relative;
+}
+
+.footer_imgMb1 {
+  position: absolute;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  bottom: 28px;
+  left: 120px;
+}
+
+.footer_imgMb2 {
+  position: absolute;
+  object-fit: contain;
+  width: 260px;
+  height: 229px;
+  bottom: 28px;
+  left: 30px;
+}
+
+.footer_imagesMed {
+  display: none;
+  position: relative;
+}
+
+.footer_imgMed1 {
+  position: absolute;
+  object-fit: contain;
+  width: 300px;
+  height: 300px;
+  top: 184px;
+  right: -52px;
+}
+
+.footer_imgMed2 {
+  position: absolute;
+  object-fit: contain;
+  width: 320px;
+  height: 280px;
+  bottom: 0px;
+  right: -20px;
+}
+
+.footer_info_list {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.footer_info_box {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;;
+}
+
+.footer_info {
+  width: 225px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 8px 16px;
+  background: #f2f2f2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666;
+}
+
+.footer_social_list {
+  display: flex;
+  gap: 20px;
+}
+
+.footer_social_btns {
+  border: none;
+  border-radius: 100%;
+}
+
+.footer_socials {
+  padding-bottom: 60px;
+}
+
+@media only screen and (max-width:1400px) {
+
+  .container {
+    padding: 0 40px;
+  }
+
+  .header {
+    width: 100%;
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  
+  .header {
+    padding-left: 34px;
+    padding-right: 40px;
+  }
+
+  .header_telegram {
+    display: none;
+  }
+
+  .btns_line {
+    display: none;
+  }
+
+  .header_phone {
+    width: 156px;
+    height: 44px;
+  }
+
+  .nav {
+    gap: 32px;
+  }
+
+  .nav_list {
+    gap: 20px;
+  }
+
+  .heroMax {
+    display: none;
+  }
+  
+  .heroMed {
+    display: block;
+  }
+
+  .service_card_img {
+    width: 320px;
+    height: 320px;
+  }
+
+  .service_card_title {
+    width: 350px;
+    font-size: 48px;
+  }
+
+  .service_card_text {
+    width: 303px;
+  }
+
+  .ser_card_content {
+    gap: 17px;
+    align-items: end;
+  }
+
+  .team {
+    max-width: 784px;
+  }
+
+  .team-img1 {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 420px;
+    height: 280px;
+  }
+
+  .team-img2 {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 280px;
+    height: 280px;
+  }
+
+  .team_card3 {
+    display: none;
+  }
+
+  .about_us_btn {
+    display: none;
+  }
+
+  .about_us_btn2 {
+    display: block;
+  }
+
+  .aboutUsMb {
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .about_us_Mb-img {
+    display: none;
+  }
+
+  .aboutUsTitle {
+    padding-bottom: 20px;
+  }
+
+  .aboutUsText {
+    gap: 70px;
+    align-items: center;
+  }
+
+  .footer_contact {
+    max-width: 784px;
+  }
+
+  .footer_images {
+    display: none;
+  }
+
+  .footer_imagesMed {
+    display: block;
+  }
+
+  .footer_info_box {
+    gap: 184px;
+  }
+
+  .footer_info_list {
+    flex-direction: column;
+  }
+
+  .footer_social_list {
+    align-items: end;
+  }
+
+}
+
+
+
+@media only screen and (max-width:500px) {
+
+  .header {
+    width: 360px;
+    padding-left: 14px;
+    padding-right: 16px;
+  }
+
+  .nav_list {
+    display: none;
+  }
+
+  .header_phone {
+    display: none;
+  }
+
+  .header_menu {
+    display: block;
+  }
+
+  .heroMed {
+    display: none;
+  }
+
+  .heroMin {
+    display: block;
+  }
+
+  .service_card {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .service_card_content {
+    border-top: none;
+  }
+
+  .ser_card_content {
+    gap: 36px;
+    align-items: end;
+  }
+ 
+  .service_card_title {
+    width: 320px;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+
+  .service_card_text {
+    width: 240px;
+  }
+
+  .service_btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .service_btn img {
+    width: 100%;
+    height: auto;
+  }
+
+  .team {
+    max-width: 360px;
+    width: 360px;
+    height: 513px;
+  }
+
+  .team_box {
+    padding: 24px 20px;
+  }
+
+  .team_title {
+    font-size: 56px;
+  }
+
+  .left-btn {
+    width: 60px;
+    height: 60px; 
+  }
+
+  .right-btn {
+    width: 60px;
+    height: 60px;
+  }
+
+  .team_images {
+    padding-top: 60px;
+  }
+
+  .team-img1 {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 280px;
+    height: 280px;
+  }
+
+  .team_card2 {
+    display: none;
+  }
+
+  .about_us {
+    margin-bottom: 60px;
+  }
+
+  .aboutUsTitle {
+    width: 269; 
+    height: 64px;
+  }
+
+  .aboutUsMb {
+    object-fit: cover;
+    border-radius: 24px;
+    width: 320px;
+    height: 400px;
+  }
+  
+  .aboutUsText p {
+    width: 280px;
+  }
+
+  .aboutUsText {
+    gap: 0;
+    align-items: last baseline;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .about_us_btn2 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .about_us_btn2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about_us_content {
+    border-bottom: none;
+  }
+
+  .footer_contact {
+    max-width: 360px;
+    padding: 24px 20px 36px;
+  }
+
+  .footer_images {
+    display: none;
+  }
+
+  .footer_imagesMed {
+    display: none;
+  }
+
+  .footer_imagesMb {
+    display: block;
+  }
+
+  .contact_us_title {
+    padding-bottom: 0;
+    width: 320px;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 120%;
+  }
+
+  .footer_info_box {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+}
