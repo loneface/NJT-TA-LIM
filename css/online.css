@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-header {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px 67px;
+    border: none;
+    color: #fff;
+    background-color: #535765;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.btn-header:hover,
+.btn-header:active {
+    background-color: #53576590;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.toggle {
+    display: none;
+}
+
+.header {
+    margin-top: 24px;
+    padding-bottom: 11px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.header-left {
+    display: flex;
+    gap: 84px;
+    align-items: end;
+}
+
+.nav-list {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    text-transform: capitalize;
+    color: #535765;
+}
+
+/* hero */
+
+.hero_title {
+    padding-top: 108px;
+    padding-bottom: 12px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 96%;
+    text-transform: uppercase;
+    color: #14171f;
+}
+
+.hero-img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Our Projects */
+
+.projects {
+    padding-top: 96px;
+}
+
+.projects_title {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #14171f;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+
+.projects-list {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projects-list-item {
+    position: relative;
+    display: inline-block;
+}
+
+.first-img-btn {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 82%;
+    left: 3%;
+    padding: 13px 40px;
+    width: 403px;
+    height: 44px;
+    background: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #14171f;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.first-img-btn:hover,
+.first-img-btn:active {
+    background-color: #ccc;
+}
+
+.btn {
+    position: absolute;
+    top: 82%;
+    left: 3%;
+    border: 1px solid #fff;
+    padding: 13px 40px;
+    width: 204px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 112%;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #ccc;
+}
+
+.projects-imgs {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact */
+
+.contact {
+    margin-top: 96px;
+}
+
+.contact-title {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #14171f;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+    max-width: 650px;
+    width: 100%;
+    padding: 64px 52px;
+
+    background-color: #f5f5f5;
+}
+
+.contact-content {
+    width: 187px;
+}
+
+.contact-right {
+    max-width: 650px;
+    width: 100%;
+}
+
+.contact-content-title {
+    margin-bottom: 8px;
+    color: #262524;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.contact-content-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(38, 37, 36, 0.38);
+}
+
+.contact-right iframe {
+    width: 100%;
+    height: 476px;
+}
+
+/* footer */
+
+.footer-item {
+    width: 44px;
+    height: 44px;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    padding: 25px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.footer-list {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-text {
+    display: none;
+}
+
+@media only screen and (max-width: 1380px) {
+
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+
+    .header-left {
+        gap: 44px;
+    }
+
+    .nav-list {
+        gap: 12px;
+    }
+
+    .btn {
+        padding: 10px 27px;
+    }
+
+    .hero_title {
+        font-size: 56px;
+    }
+
+    .hero-img {
+        width: 720px;
+        height: 560px;
+    }
+
+    .first-img-btn {
+        width: 326px;
+    }
+
+    .projects-imgs {
+        width: 350px;
+        height: 340px;
+    }
+
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+        max-width: none;
+    }
+
+    .contact-left {
+        flex-direction: row;
+        padding-bottom: 212px;
+    }
+
+    .projects {
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .nav-list {
+        display: none;
+    }
+
+    .btn-header {
+        display: none;
+    }
+    
+    .toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+
+        width: 40px;
+        height: 40px;
+        background-color: #535765;
+    }
+
+    .toggle span {
+        display: block;
+
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    .hero_title {
+        padding-top: 84px;
+        font-size: 30px;
+        line-height: 133%;
+    }
+
+    .first-img-btn {
+        width: 296px;
+    }
+
+    .projects {
+        padding-top: 48px;
+    }
+
+    .contact-left {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .footer-text {
+        display: block;
+    }
+    
+    .footer {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
