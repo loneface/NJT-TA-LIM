@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* header */
+
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.header__number {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #443e3e;
+}
+
+.header__schedule {
+  font-weight: 400;
+  font-size: 12px;
+  color: #999;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+.header__btns {
+  border: none;
+  background-color: transparent;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.header__btn {
+  border: none;
+  padding: 15px 30px;
+  width: 172px;
+  height: 44px;
+  background: #E81212;
+
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header__buttons__mb {
+  display: none;
+} 
+
+.mini-logo {
+  display: none;
+}
+
+.header__2nd-section {
+  margin: 0 auto;
+  width: 100%;
+  height: 48px;
+
+  background-color: #E81212;
+}
+
+.header__bottom {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+}
+
+.header__bottom ul {
+  display: flex;
+  gap: 77px;
+}
+
+.header__2nd-section__list__items {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header__2nd-section__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5.25px;
+  
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+}
+
+.header__2nd-section__menu span {
+  width: 21px;
+  height: 1.5px;
+  background-color: #fff;
+}
+
+/* hero */
+
+.hero {
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 500px;
+  background-image: url(../images/hero_bg.jpg);
+  background-position: center center;
+}
+
+.hero__content {
+  padding-top: 120px;
+  width: 550px;
+  height: 262px;
+}
+
+.hero__title {
+  width: 400px;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.hero__title__1st-line {
+  color: #FCCD05;
+}
+
+.hero__text {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.hero_btn {
+  border: none;
+  padding: 15px 30px;
+  width: 172px;
+  height: 44px;
+  background: #E81212;
+
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* cards */
+
+.cards {
+  padding-top: 100px;
+}
+
+.cards ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cards__item {
+  position: relative;
+  display: inline-block;
+}
+
+.cards__content {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+}
+
+.cards__title {
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #fff;
+}
+
+.cards__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+}
+
+.img1n6 {
+  width: 540px;
+  height: 240px;
+}
+
+.img2n3n4n5 {
+  width: 300px;
+  height: 240px;
+}
+
+@media only screen and (max-width:1200px) {
+
+  .container {
+    padding: 0 20px;
+  }
+
+}
+
+@media only screen and (max-width:400px) {
+
+  .header__main {
+    padding: 10px 10px;
+  }
+
+  .toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.25px;
+  
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+  }
+  
+  .toggle span {
+    display: block;
+  
+    width: 21px;
+    height: 1.5px;
+    background-color: #443e3e;
+  } 
+
+  .header__logo, .header__content, .socials, .header__btn, .fav_btn, .header__2nd-section {
+    display: none;
+  }
+
+  .mini-logo, .header__buttons__mb {
+    display: block;
+    display: flex;
+    gap: 20px;
+  }
+
+  .header__buttons {
+    gap: 10px;
+  }
+  
+  .hero__content {
+    width: 340px;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .hero__title {
+    width: 340px;
+    font-size: 36px;
+  }
+
+  .hero__text {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .cards ul {
+    padding-top: 50px;
+    gap: 10px;
+  }
+
+  .cards__title {
+    padding-bottom: 5px;
+  }
+
+  .cards__text {
+    font-size: 12px;
+  }
+
+  .img1n6, .img2n3n4n5 {
+    width: 340px;
+    height: 200px;
+  }
+
+}
