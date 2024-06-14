@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1240px) {
+
+  .container {
+    padding: 0 25px;
+  }
+
+}
+
+@media only screen and (max-width: 960px) {
+
+  .hero {
+    padding-top: 117px;
+
+    &__top-list {
+      flex-direction: column;
+      row-gap: 16px;
+      border: none;
+      box-shadow: none;
+
+      &__item {
+        border-radius: 20px;
+        max-width: 690px;
+        height: 164px;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+        background: #fff;
+
+        padding: 32px 140px 32px 32px;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        & div p {
+          max-width: 394px;
+        }
+      }
+
+      & span {
+        display: none;
+      }
+    }
+
+    &__block__top {
+      padding-bottom: 41px;
+      flex-direction: column;
+  
+      &__content {
+        padding-bottom: 73px;
+        max-width: 690px;
+        text-align: center;
+  
+        & h2 {
+          padding-bottom: 49px;
+          font-size: 44px;
+        }
+  
+        & p {
+          padding-bottom: 44px;
+        }
+      }
+    }
+
+    &__img-dt-mb {
+      display: none;
+    }
+
+    &__img-tablet {
+      display: block;
+      width: 100%;
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .hero {
+    padding-top: 75px;
+
+    &__block__top {
+      padding-bottom: 56px;
+
+      &__content {
+      text-align: start;
+      padding-bottom: 40px;
+      }
+
+       & h2 {
+        font-size: 28px;
+       }
+
+       & h2, p {
+        padding-bottom: 32px;
+       }
+
+       & p, button {
+        font-size: 15px;
+       }
+    }
+
+    &__img-dt-mb {
+      display: block;
+      width: 345px;
+      height: 253px;
+      border-radius: 15px;
+    }
+
+    &__img-tablet {
+      display: none;
+    }
+
+    &__top-list {
+      border-radius: 20px;
+      max-width: 345px;
+      height: 638px;
+      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+      background: #fff;
+
+      margin: 0 auto;
+      padding: 24px 37px 32px 32px;
+      row-gap: 0;
+      justify-content: space-between;
+
+      &__item {
+        border: none;
+        box-shadow: none;
+        height: 178px;
+
+        padding: 0;
+        gap: 0;
+        flex-direction: column;
+        align-items: start;
+
+        & img {
+          width: 68px;
+          height: 68px;
+        }
+
+        & div h2 {
+          padding-top: 16px;
+          padding-bottom: 12px;
+          font-size: 18px;
+          max-width: 218px;
+        }
+
+        & div p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
