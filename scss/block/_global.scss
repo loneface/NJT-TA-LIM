@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
-$font-family: "Exo 2", sans-serif;
-$second-family: "PT Sans", sans-serif;
-$primary-color: #0b7572;
-
+:root {
+  --font-family: "Exo 2", sans-serif;
+  --second-family: "PT Sans", sans-serif;
+  --primary-color: #0b7572;
+}
 
 * {
   box-sizing: border-box;
@@ -28,7 +28,7 @@ a {
 }
 
 body {
-  font-family: $font-family;
+  font-family: var(--font-family);
 }
 
 button {
