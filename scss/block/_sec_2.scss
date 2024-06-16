@@ -1,0 +1,210 @@
+.sec_2 {
+  padding-top: 120px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+    color: #363738;
+  }
+
+  &__text {
+    padding-top: 32px;
+    padding-bottom: 56px;
+    max-width: 504px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6b6b6c;
+  }
+
+  &__list {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 212px;
+
+    &__item {
+      border-radius: 10px;
+      width: 393px;
+      height: 439px;
+      box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+      background: #fff;
+
+      & div {
+        padding: 24px 32px 32px;
+      }
+
+      &__title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 135%;
+        color: #363738;
+      }
+
+      &__text {
+        padding-top: 16px;
+        padding-bottom: 32px;
+        max-width: 291px;
+        font-family: $second-family;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6b6b6c;
+      }
+
+      &__cost {
+        padding-bottom: 5px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 135%;
+        color: #363738;
+        border-bottom: 3px solid #ffce50;
+      }
+    }
+  }
+
+  &__table-box {
+    display: flex;
+    justify-content: center;
+    height: 917px;
+    background: $primary-color;
+
+    &__title {
+      padding-top: 99px;
+      max-width: 440px;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 125%;
+      color: #fff;
+    }
+  }
+
+  &__table {
+
+    &__page {
+      padding: 28px 32px 40px;
+      align-self: center;
+      border-radius: 8px;
+      max-width: 652px;
+      height: 747px;
+      background: #fff;
+
+      & .table_n1 {
+        margin-top: 32px;
+        border-collapse: collapse;
+
+        & thead {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 150%;
+          color: #fff;
+
+          & th {
+            background: $primary-color;
+            border: none;
+          }
+
+          & tr th:nth-child(1) {
+            padding: 10px 36px;
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+          }
+
+          & tr th:nth-child(2) {
+            padding: 10px 36px;
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+          }
+
+          & tr th:nth-child(3) {
+            padding: 10px 26px;
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+          }
+
+          & tr th:nth-child(4) {
+            padding: 10px 45px;
+          }
+        }
+
+        & tbody {
+          background: #F9F9FB;
+
+          & tr td:not(:first-child) {
+            padding: 24px 16px;
+          }
+
+          & tr td:nth-child(1) {
+            padding: 0px 16px;
+          }
+
+          & tr:not(:last-child) {
+            border-bottom: 1px solid #d7d7dd;
+          }
+
+          & tr td:not(:last-child) {
+            border-right: 1px solid #d7d7dd;
+          }
+        }
+      }
+    }
+
+    &__top {
+      padding-bottom: 32px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #d7d7dd;
+
+      & p {
+        max-width: 274px;
+        font-family: $second-family;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 150%;
+        color: #6b6b6c;
+      }
+    }
+  }
+}
+
+.table {
+
+  &_text {
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #6b6b6c;
+  }
+
+  &_strong {
+    padding-bottom: 12px;
+    font-family: $second-family;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
+    color: #363738;
+  }
+
+  &_number {
+    padding-top: 10px;
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #363738;
+  }
+
+  &_cost {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 135%;
+    color: #363738;
+  }
+
+  &_stars {
+    padding-top: 10px;
+  }
+}
+
+.table_n2 {
+  display: none;
+}
