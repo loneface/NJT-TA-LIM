@@ -42,17 +42,17 @@
     &__block__top {
       padding-bottom: 41px;
       flex-direction: column;
-  
+
       &__content {
         padding-bottom: 73px;
         max-width: 690px;
         text-align: center;
-  
+
         & h2 {
           padding-bottom: 49px;
           font-size: 44px;
         }
-  
+
         & p {
           padding-bottom: 44px;
         }
@@ -74,7 +74,6 @@
     padding-top: 257px;
 
     &__overlay {
-      margin: 0 auto;
       padding-bottom: 48px;
 
       img {
@@ -118,6 +117,8 @@
     }
 
     &__list {
+      display: grid;
+      justify-content: center;
       flex-direction: column;
       gap: 32px;
       padding-bottom: 172px;
@@ -152,6 +153,39 @@
     }
   }
 
+  .sec_3 {
+
+    &__title {
+      padding-top: 88px;
+      font-size: 44px;
+    }
+
+    &__list {
+      row-gap: 16px;
+
+      &__item {
+        padding: 40px 76.22px 48px 85.41px;
+
+        &__img {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .sec_4 {
+    padding-top: 88px;
+
+    &__list {
+      padding-top: 64px;
+
+      &__item:nth-child(2),
+      &__item:nth-child(6) {
+        border: none;
+      }
+    }
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -163,21 +197,23 @@
       padding-bottom: 56px;
 
       &__content {
-      text-align: start;
-      padding-bottom: 40px;
+        text-align: start;
+        padding-bottom: 40px;
       }
 
-       & h2 {
+      & h2 {
         font-size: 28px;
-       }
+      }
 
-       & h2, p {
+      & h2,
+      p {
         padding-bottom: 32px;
-       }
+      }
 
-       & p, button {
+      & p,
+      button {
         font-size: 15px;
-       }
+      }
     }
 
     &__img-dt-mb {
@@ -252,7 +288,7 @@
 
     &__list {
       grid-template-columns: repeat(1, 337px);
-      grid-template-rows: repeat(4,74px);
+      grid-template-rows: repeat(4, 74px);
       row-gap: 38px;
 
       &__item {
@@ -314,30 +350,31 @@
         }
       }
     }
-  }
 
-  .sec_2__table-box {
-     justify-content: start;
-     height: 1500px;
+    &__table-box {
+      justify-content: start;
+      height: 1500px;
 
-    &__title {
-      padding-top: 32px;
-      padding-bottom: 40px;
-      font-size: 24px;
+      &__title {
+        padding-top: 32px;
+        padding-bottom: 40px;
+        font-size: 24px;
+      }
+    }
+
+    &__table__page {
+      padding: 24px 16px;
+      height: 1350px;
+    }
+
+    &__table__top {
+      border-bottom: none;
+      padding-bottom: 24px;
     }
   }
 
-  .sec_2__table__page {
-    padding: 24px 16px;
-    height: 1350px;
-  }
-
-  .sec_2__table__top {
-    border-bottom: none;
-    padding-bottom: 24px;
-  }
-
-  .sec_2__table__top p, .table_n1 {
+  .sec_2__table__top p,
+  .table_n1 {
     display: none;
   }
 
@@ -408,4 +445,58 @@
       }
     }
   }
+
+  .sec_3 {
+
+    &__title {
+      padding-top: 64px;
+      padding-bottom: 30px;
+      font-size: 28px;
+    }
+
+    &__list {
+      row-gap: 14px;
+
+      &__item {
+        padding: 24px 24.3px 32px 47.5px;
+
+        & h4 {
+          padding-bottom: 16px;
+        }
+
+        & span {
+          display: none;
+        }
+
+        & p {
+          padding-top: 0;
+        }
+      }
+    }
+  }
+
+  .sec_4 {
+    padding-top: 64px;
+
+    &__list {
+      padding-top: 56px;
+
+      &__item {
+        width: 170px;
+
+        &__content {
+          left: 15px;
+          right: 15px;
+        }
+      }
+
+      &__item:nth-child(5) img {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        width: 130px;
+      }
+    }
+  }
+
 }
