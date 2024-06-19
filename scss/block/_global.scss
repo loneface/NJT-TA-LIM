@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
 
 
 $font-family: "Exo 2", sans-serif;
 $second-family: "PT Sans", sans-serif;
+$third-family: "Familjen Grotesk", sans-serif;
 $primary-color: #0b7572;
 
 
@@ -34,4 +36,11 @@ body {
 button {
   cursor: pointer;
   transition: all 0.2s linear;
+}
+
+iframe {
+  margin: 46px 0 166px;
+  width: 1245px;
+  height: 667px;
+  border: none;
 }
